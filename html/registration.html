@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Assistant|Rajdhani|Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/base.css"> -->
+    <title>OnlyTravelling-Registration</title>
+</head>
+<body>
+    <header>
+         <div id='slidebar'>
+                <i class="fas fa-times fa-2x hamburger-icon" onclick='toggleSlidebar()'></i>
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../html/package.html">packages</a></li>
+                    <li><a href="../html/contact-us.html">contact us</a></li>
+                    <li><a href="../html/registration.html">registration</a></li>
+                </ul>
+        </div>  
+
+       <div class="wrapper">
+
+            <i class="fas fa-bars fa-2x hamburger-icon" onclick='toggleSlidebar()'></i>
+            <div class="logo-div">
+                <div class="logo">
+                    
+                </div>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="../index.html">home</a></li>
+                    <li><a href="../html/package.html">packages</a></li>
+                    <li><a href="../html/contact-us.html">contact us</a></li>
+                    <li><a href="../html/registration.html">registration</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <i class="fas fa-search fa-lg"></a></i>
+            </div>
+        </div>
+    </header>
+<body>
+    <div>
+        <form action="bouncer.php" id="regForm">
+            <div class="regForm">
+                <label for="fullname">Full Name*</label>
+                <input type="text" id="fullname" class="fullname" value="" placeholder="Enter Your FullName">
+                <p class="reqName"></p>
+            </div>
+            <div class="regForm">
+                <label for="address">Your Address*</label>
+                <input type="textarea" id="address" class="address" value="" placeholder="Enter Your Address">
+                <p class="reqAddress"></p>
+            </div>
+            <div class="regForm">
+                <label for="city">Your City*</label>
+                <input type="text" id="city" class="city" value="" placeholder="Enter Your City">
+                <p class="reqCity"></p>
+            </div>
+            <div class="regForm">
+                <label for="province">Province*</label>
+                <input type="text" id="province" class="province" value="" placeholder="Enter Your province">
+                <p class="reqProvince"></p>
+            </div>
+            <div class="regForm">
+                <label for="postalCode">Postal Code*</label>
+                <input type="text" id="postalCode" class="postalCode" value="" placeholder="Enter Your postalCode">
+                <p class="reqPostal"></p>
+            </div>
+            <div class="regForm">
+                <label for="email">Your Email*</label>
+                <input type="text" id="email" class="email" value="" placeholder="Enter Your Email">
+                <p class="reqEmail"></p>
+            </div>
+            <div class="regForm">
+                <label for="phoneNumber">Phone Number*</label>
+                <input type="number" id="phoneNumber" class="phoneNumber" value="" placeholder="Enter Your phoneNumber">
+                <p class="reqNumber"></p>
+            </div>
+            <div class="regForm subBtn" >
+                <input type="button" id="subBtn"  value="Submit">
+            </div>
+        </form>
+    </div>
+    <footer>
+            <div class="row">
+                <p id="date-div"></p>
+                <div class="column small-12 medium-6 large-6">
+                    <h4>Contact/Community</h4>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Blog</li>
+                        <li>FAQ</li>
+                        <li>Careers at OnlyTravelling</li>
+                    </ul>
+                </div>
+                <div class="column small-12 medium-6 large-6">
+                    <h4>follow</h4>
+                    <ul>
+                        <li><i class="fab fa-facebook-square fa-lg"></i><span>facebook</span></li>
+                        <li><i class="fab fa-instagram fa-lg"></i><span>instagram</span></li>
+                        <li><i class="fab fa-twitter-square fa-lg"></i><span>twitter</span></li>
+                        <li><i class="fab fa-youtube-square fa-lg"></i><span>youtube</span></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/logic.js"></script>
+</body>
+</html>
